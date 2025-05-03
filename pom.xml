@@ -14,7 +14,7 @@
     <build>
         <plugins>
             <plugin>
-               .plugins</groupId>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.1</version>
                 <configuration>
@@ -26,7 +26,8 @@
                             </includes>
                         </resource>
                     </webResources>
-                           </plugin>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
